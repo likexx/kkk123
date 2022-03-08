@@ -14,6 +14,6 @@ message HelloReply {
 }
 
 service aaaaaa {
-    rpc SayHello234 (HelloRequest) returns (HelloReply);
+    rpc SayHello2468 (HelloRequest) returns (HelloReply);
 }
 
