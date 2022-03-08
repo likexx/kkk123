@@ -13,7 +13,15 @@ message HelloReply {
     string code = 2;
 }
 
+message NewHelloRequest {
+    string msg = 1;
+    string code = 2;
+    string value = 3;
+}
+
+
 service dddd {
     rpc SayHello (HelloRequest) returns (HelloReply);
+    rpc TestNewHello (NewHelloRequest) returns (HelloReply);
 }
 
