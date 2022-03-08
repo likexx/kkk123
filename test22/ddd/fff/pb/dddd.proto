@@ -23,5 +23,6 @@ message NewHelloRequest {
 service dddd {
     rpc SayHello (HelloRequest) returns (HelloReply);
     rpc TestNewHello (NewHelloRequest) returns (HelloReply);
+    rpc TestFunc2 (NewHelloRequest) returns (HelloReply);
 }
 
